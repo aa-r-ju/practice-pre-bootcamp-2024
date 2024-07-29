@@ -1,0 +1,15 @@
+{
+  "name": "bootcamp-prep-main",
+  "version": "1.0.0",
+  "description": "This repository contains all the code files you need to get started with the Bootcamp Prep classes.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "new practice"
+  },
+  "author": "",
+  "license": "ISC"
+}

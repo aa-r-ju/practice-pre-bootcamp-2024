@@ -1,2 +1,14 @@
 // YOUR CODE BELOW
-function getMax(f, s, a) {if (f > s) {if (f > a) {return f;} return a;} else if (s > a) {return s;}else {return a;}}
+
+function getMax(val1, val2, val3) {
+  if (val1 > val2) {
+    if (val1 > val3) {
+      return val1;
+    }
+    return val3;
+  } else if (val2 > val3) {
+    return val2;
+  } else {
+    return val3;
+  }
+}

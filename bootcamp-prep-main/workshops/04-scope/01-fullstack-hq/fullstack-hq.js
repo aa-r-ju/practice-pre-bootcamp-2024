@@ -1,19 +1,31 @@
 // Edit the code below
 let place = 'Planet Earth';
 
-function fullstackHQ(){
+function fullstackHQ() {
   return middleFunction('United States');
 
-  function middleFunction(place) {
+  function middleFunction(country) {
     return innerFunction('New York State');
 
-    function innerFunction(place) {
-      place = 'New York City';
-      return innermostFunction();
+    function innerFunction(state) {
+      city = 'New York City';
+      return innermostFunction(city);
 
       function innermostFunction() {
-        return 'Fullstack HQ is at ' + place + ', ' + place + ', ' + place + ', ' + place;
+        return (
+          'Fullstack HQ is at ' +
+          place +
+          ', ' +
+          country +
+          ', ' +
+          state +
+          ', ' +
+          city
+        );
       }
     }
   }
 }
+
+console.log('jnjhbdh');
+console.log(fullstackHQ());

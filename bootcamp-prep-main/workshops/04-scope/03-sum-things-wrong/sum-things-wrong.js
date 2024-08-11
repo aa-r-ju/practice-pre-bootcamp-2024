@@ -1,8 +1,6 @@
-let sum = 0;
-
 function sumThingsWrong(num1, num2) {
-  sum += num1;
-  sum += num2;
-
-  return sum;
+  return num1 + num2;
 }
+sumThingsWrong(2, 3);
+sumThingsWrong(2, 3);
+console.log(sumThingsWrong(2, 10));
